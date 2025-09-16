@@ -1,0 +1,171 @@
+/* Загальні стилі */
+body {
+    margin: 0;
+    font-family: 'Inder', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li{
+    color: #333;
+    font-family: 'Inder', sans-serif;
+    font-size: 1.2rem;
+}
+
+h2, p{
+    text-indent: 30px; 
+}
+
+/* Header */
+.header_section {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 50px auto;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    border-radius: 25px;
+    overflow: hidden;
+    gap: 0;
+    background: #fff;
+}
+
+.header_text {
+    flex: 2;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header_text h1 {
+    margin: 0 0 15px 0;
+    font-size: 2.8rem;
+    color: #1E3A8A;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+}
+
+.header_text p {
+    margin: 0;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.header_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+}
+
+.header_img img{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-right: 20%;
+}
+
+.headerLinux_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100px;
+}
+
+.headerLinux_img img {
+    margin-top: 20%;
+    margin-bottom: 20%;
+    margin-right: 250px;
+}
+
+
+/* Кнопка "Повернутись на головну" */
+.btn-home {
+    display: inline-block;
+    margin-left: 20%;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4169E1;
+    color: white;
+    font-weight: bold;
+    border-radius: 12px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-home:hover {
+    background-color: #1E3A8A;
+    transform: translateY(-2px);
+}
+
+.content_section {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+.content_section h2 {
+    font-size: 2rem;
+    color: #1E3A8A;
+    margin-bottom: 15px;
+}
+
+.content_section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* Git команди */
+.git_commands {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.command {
+    background-color: #f0f8ff;
+    padding: 12px 15px;
+    border-radius: 12px;
+    font-family: 'Courier New', monospace;
+    font-size: 1rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.command:hover {
+    transform: translateY(-3px);
+    background-color: #e0f0ff;
+}
+
+.command .cmd {
+    font-weight: bold;
+    color: #1E3A8A;
+}
+
+.img_command img{
+    margin-top: 1%;
+}
+
+.img_script{
+    width: 50%;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 10%;
+    background-color: #4169E1;
+    color: white;
+    margin-top: 50px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
